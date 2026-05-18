@@ -27,14 +27,12 @@
 
         ul {
             display: flex;
+            gap: 30px;
             list-style-type: none;
             padding-left: 0;
             margin: 0;
         }
-        ul > li {
-            margin-right: 30px;
-        }
-
+  
        h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 0.01em;
@@ -55,13 +53,22 @@
     margin-bottom: 20px;}
 
     section .link {
+        display: block;
         background: rebeccapurple;
         color:  white;
         padding: 8px 15px;
+        text-align: center;
+        margin-top: 10px;
     }
 
 h1 + section {
   background-color: moccasin;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
         .post {
