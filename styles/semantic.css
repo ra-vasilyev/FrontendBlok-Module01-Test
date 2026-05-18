@@ -53,6 +53,17 @@
         section{background: lavender;
         padding: 5px 20px;
     margin-bottom: 20px;}
+
+    section .link {
+        background: rebeccapurple;
+        color:  white;
+        padding: 8px 15px;
+    }
+
+h1 + section {
+  background-color: moccasin;
+}
+
         .post {
             padding-bottom: 20px;
         }
